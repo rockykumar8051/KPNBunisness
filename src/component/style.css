@@ -1,0 +1,262 @@
+.gradient-custom {
+  background: #0B0C10;
+  }
+  .carousel-indicators {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+
+
+  /* navbar start */
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;500;600&display=swap');
+ 
+  
+  body {
+    line-height: 1.5;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    background: #0B0C10;
+  }
+  body.hidden-scrolling {
+    overflow-y: hidden;
+  }
+  
+  nav .container .logo img{
+    width: 180px;
+    height: 100px;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #66fcf1;
+    font-size: 22px;
+    font-weight: bolder;
+    padding-right: 20px;
+  }
+ 
+  
+  @media (max-width: 768px) {
+    nav .container .logo img{
+      width: 165px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+      font-size: medium;
+    }
+  
+    footer .container .row .logo img {
+      width: 200px;
+      height: 90px;
+    }
+  }
+  
+  /* navbar end */
+  
+
+  /* banner start */
+  header {
+    position: relative;
+    height:95vh;
+    min-height:400px;
+    background-size:cover;
+    background-image:url("/src/assests/home.jpg")
+  }
+
+/* .hidden-spacer {
+    height: 56px
+} */
+
+.heading_content{
+padding: 20px 22px;
+position: absolute;
+max-width:550px;
+left: 144px;
+top: 200px;
+background: rgba(42, 42, 44, 0.69);
+border-radius: 5px;
+}
+.heading_content h1{
+font-family: 'Nunito Sans';
+font-size: 40px;
+line-height: 45px;
+color: rgba(41, 255, 226, 0.8);
+}
+
+.heading_content p{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color: #FFFFFF;
+}
+  /* banner end */
+
+  
+/* counter-area */
+.counter-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 30px 0;
+  flex-wrap: wrap;
+  color: #FFFFFF;
+}
+.content {
+  padding: 10px;
+}
+.counter {
+  font-size: 42px;
+  margin: 5px 0;
+}
+h3 {
+  color: #29FFE2;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+
+  header{
+    height:85vh;
+  }
+  .counter-container {
+    padding: 30px 0;
+    flex-direction: column;
+  }
+
+  .slick-next,
+  .slick-prev {
+    width: 50px;
+    margin-right: 15px;
+  }
+  .logo-slider p {
+    font-size: 10px;
+  }
+  .logo-slider .item {
+    background-color: #fff;
+    box-shadow: 0 4px 5px #cacaca;
+    border-radius: 8px;
+  }
+  .logo-slider .item a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+  }
+}
+
+
+
+/* ourservice start */
+
+section .container .row .ourservice{
+  background-color: #000000;
+  align-items: center;
+  background: linear-gradient(180deg, #2A2A2C 0%, #1A1A1E 100%);
+  box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+section .container .row .ourservice img{
+width:fit-content;
+padding: 20px 0px;
+}
+section .container .row .ourservice .card-title{
+  font-family: 'Nunito Sans', sans-serif;
+  color: #29FFE2;
+}
+section .container .row .ourservice .card-text{
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card{
+  --mdb-card-spacer-y: none;
+  --mdb-card-spacer-x: none;
+  padding: 10px 10px;
+}
+
+@media screen and (min-width: 1208px) {
+  section .container .row .ourservice .chat{
+    width: 242px;
+  }
+
+}
+
+/* ourservice end */
+
+@media screen and (max-width: 768px) {
+
+  section .container .row .careerIMG{
+    width: 350px;
+  }
+
+  .heading_content{
+    padding: 15px 18px;
+    position: absolute;
+    max-width:350px;
+    left: 104px;
+    top: 150px;
+    }
+    .heading_content h1{
+    font-family: 'Nunito Sans';
+    font-size: 30px;
+    line-height: 35px;
+    color: rgba(41, 255, 226, 0.8);
+    }
+    
+    .heading_content p{
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 100;
+      color: #FFFFFF;
+    }
+
+    
+}
+
+@media screen and (max-width: 468px){
+
+  #navbarRightAlignExample{
+    background: rgba(42, 42, 44, 0.8);
+    padding-left: 20px;
+  }
+
+  section .container .row .careerIMG{
+    width: 220px;
+  }
+  header{
+    height:90vh;
+  }
+
+  .heading_content{
+    padding: 10px 12px;
+    position: absolute;
+    max-width:250px;
+    left: 25px;
+    top: 150px;
+    }
+    .heading_content h1{
+      font-family: 'Nunito Sans';
+      font-size: 20px;
+      line-height: 25px;
+      color: rgba(41, 255, 226, 0.8);
+      }
+}
+
+@media screen and (max-width: 368px){
+  section .container .row .careerIMG{
+    width: 180px;
+  }
+  .heading_content{
+    padding: 8px 10px;
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    }
+}
+
+/* responsive */
