@@ -1,8 +1,12 @@
 import React from "react";
 
 function Carrer() {
+//   comment
+  
+  
   return (
     <>
+    
     <section className=" container">
     <h2 style={{color:"#29FFE2"}}>Career</h2>
       <div
