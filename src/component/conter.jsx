@@ -80,7 +80,7 @@ function Conter() {
       </section>
 
       <div className="container text-center mt-4 px-4 py-4 " data-aos="fade-up" data-aos-duration="1000"  data-aos-easing="ease-in-sine">
-        <h2 style={{ color: "#29FFE2" }}>Our Purspose</h2>
+        <h2 style={{ color: "#29FFE2" }}>Our Purpose</h2>
         <p style={{ color: "#fff" }}>
           Our purpose is to build a brand that stands for values, dedication,
           and commitment. We believe that a business is only as good as the
