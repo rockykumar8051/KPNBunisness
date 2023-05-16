@@ -64,13 +64,7 @@ export default function App() {
                               </div>
                               <div className="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
                                 <p className="mb-0 pb-1">
-                                  Thanks to KPN Business Solutions, my network
-                                  expanded exponentially, and I received many
-                                  high-quality leads for our start-up, which we
-                                  later converted into direct sales. I am
-                                  incredibly impressed with the value they
-                                  delivered, and I highly recommend their
-                                  services
+                                I'm approached by various lead gen services every day! but I was initially doubtful of KPN's claims. I believed it was too good to be true and that it wouldn't work. However, I must say that I was proven wrong.
                                 </p>
                               </div>
                             </div>
