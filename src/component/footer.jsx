@@ -58,7 +58,7 @@ function Footer() {
                     Follow Us
                   </h5>
 
-                  <a type="button" className="btn-floating btn-tw" href="https://api.whatsapp.com/send?phone= +9189567 44785" target="_blank">
+                  <a type="button" className="btn-floating btn-tw" href="https://api.whatsapp.com/send?phone= +918956744785" target="_blank">
                   <i class="fa-brands fa-whatsapp  fa-bounce fa-xl"   style={{color:"#ffff"}}></i>
                   </a>
 
