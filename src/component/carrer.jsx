@@ -30,7 +30,7 @@ function Carrer() {
                 className="card-title"
                 style={{ color: "#29FFE2", margin: "15px 0px" }}
               >
-                Careers at KNP Business Solutions{" "}
+                Careers at KPN Business Solutions{" "}
               </h2>
               <p
                 className="card-text"
