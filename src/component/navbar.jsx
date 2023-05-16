@@ -60,7 +60,7 @@ function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i className="fas fa-bars" style={{ color: "#fff" }}></i>
+            <i className="fas fa-bars" style={{ color: "#66fcf1" }}></i>
           </button>
 
           <div
